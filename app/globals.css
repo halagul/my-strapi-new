@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -39,4 +39,41 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+/* styles/globals.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  background: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
